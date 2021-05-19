@@ -38,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="443 533 3739" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLF-Lj-0As">
-                                <rect key="frame" x="5" y="41" width="217" height="25"/>
+                                <rect key="frame" x="5" y="40.5" width="217" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="4fs-85-nx0"/>
                                     <constraint firstAttribute="width" constant="217" id="F1K-iu-eJ5"/>

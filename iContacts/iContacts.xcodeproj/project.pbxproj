@@ -17,6 +17,7 @@
 		A456438F2651B81300E2BCEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A456438D2651B81300E2BCEF /* LaunchScreen.storyboard */; };
 		A456439A2651B81400E2BCEF /* iContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45643992651B81400E2BCEF /* iContactsTests.swift */; };
 		A45643A52651B81400E2BCEF /* iContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45643A42651B81400E2BCEF /* iContactsUITests.swift */; };
+		A4AD74BC2655C98F000F429B /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD74BB2655C98F000F429B /* Contacto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A45643A02651B81400E2BCEF /* iContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45643A42651B81400E2BCEF /* iContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iContactsUITests.swift; sourceTree = "<group>"; };
 		A45643A62651B81400E2BCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4AD74BB2655C98F000F429B /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				A45643902651B81300E2BCEF /* Info.plist */,
 				A430E80F2654C59B005E7556 /* ContactoTableViewCell.swift */,
 				A430E8102654C59B005E7556 /* ContactoTableViewCell.xib */,
+				A4AD74BB2655C98F000F429B /* Contacto.swift */,
 			);
 			path = iContacts;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				A45643872651B81100E2BCEF /* ViewController.swift in Sources */,
 				A45643832651B81100E2BCEF /* AppDelegate.swift in Sources */,
 				A45643852651B81100E2BCEF /* SceneDelegate.swift in Sources */,
+				A4AD74BC2655C98F000F429B /* Contacto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
