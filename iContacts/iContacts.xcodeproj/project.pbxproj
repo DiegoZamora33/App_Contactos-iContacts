@@ -17,7 +17,8 @@
 		A456438F2651B81300E2BCEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A456438D2651B81300E2BCEF /* LaunchScreen.storyboard */; };
 		A456439A2651B81400E2BCEF /* iContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45643992651B81400E2BCEF /* iContactsTests.swift */; };
 		A45643A52651B81400E2BCEF /* iContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45643A42651B81400E2BCEF /* iContactsUITests.swift */; };
-		A4AD74BC2655C98F000F429B /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD74BB2655C98F000F429B /* Contacto.swift */; };
+		A4AD74BE265C69C2000F429B /* EditarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD74BD265C69C2000F429B /* EditarViewController.swift */; };
+		A4AD74C1265CB87A000F429B /* Contacto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4AD74BF265CB87A000F429B /* Contacto.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,8 @@
 		A45643A02651B81400E2BCEF /* iContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45643A42651B81400E2BCEF /* iContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iContactsUITests.swift; sourceTree = "<group>"; };
 		A45643A62651B81400E2BCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4AD74BB2655C98F000F429B /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		A4AD74BD265C69C2000F429B /* EditarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarViewController.swift; sourceTree = "<group>"; };
+		A4AD74C0265CB87A000F429B /* Contacto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacto.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +116,8 @@
 				A45643902651B81300E2BCEF /* Info.plist */,
 				A430E80F2654C59B005E7556 /* ContactoTableViewCell.swift */,
 				A430E8102654C59B005E7556 /* ContactoTableViewCell.xib */,
-				A4AD74BB2655C98F000F429B /* Contacto.swift */,
+				A4AD74BD265C69C2000F429B /* EditarViewController.swift */,
+				A4AD74BF265CB87A000F429B /* Contacto.xcdatamodeld */,
 			);
 			path = iContacts;
 			sourceTree = "<group>";
@@ -269,10 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A430E8112654C59B005E7556 /* ContactoTableViewCell.swift in Sources */,
+				A4AD74C1265CB87A000F429B /* Contacto.xcdatamodeld in Sources */,
 				A45643872651B81100E2BCEF /* ViewController.swift in Sources */,
 				A45643832651B81100E2BCEF /* AppDelegate.swift in Sources */,
 				A45643852651B81100E2BCEF /* SceneDelegate.swift in Sources */,
-				A4AD74BC2655C98F000F429B /* Contacto.swift in Sources */,
+				A4AD74BE265C69C2000F429B /* EditarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +609,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4AD74BF265CB87A000F429B /* Contacto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4AD74C0265CB87A000F429B /* Contacto.xcdatamodel */,
+			);
+			currentVersion = A4AD74C0265CB87A000F429B /* Contacto.xcdatamodel */;
+			path = Contacto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A45643772651B81100E2BCEF /* Project object */;
 }
